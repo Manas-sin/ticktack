@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    
+}
+.container{
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-style:normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(17, 19, 57, 0.653);
+   text-transform: capitalize;
+   text-decoration:underline;
+   text-shadow: 30cap;
+   text-rendering: geometricPrecision;
+
+    
+}
+.main{
+    border: 2px solid; 
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 50rem;
+    background-image:url(./tit.jpg);
+    margin-left : 20rem;
+    background-color: rgba(197, 195, 195, 0.868);
+}
+.players{
+    display: flex;   
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.player
+{ 
+    width: 100%;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 1.2rem ;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    background-color: black;
+    color: white;
+}
+.player__symbol{
+    margin-left: 3.1rem ;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: -1rem;
+}
+.board-container{
+    height: 20rem auto;
+    width: 20rem ;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+}
+.board{
+    padding: 2.2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,100px);
+    justify-items:center;
+    align-items: center;
+}
+.board__cell{
+    cursor: pointer;
+    width: 5rem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: larger;
+    height: 5rem;
+    border-radius: 5px;
+}
+
+button{
+    background-color: black;
+    color:white;
+    width: 40%;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+.container2{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+}
+.popup__restart-btn,.game-restart-btn{
+    width: 100px;
+   margin: 0.2rem;
+   height: 2rem;
+}
+#message{
+    color: yellow;
+    font-size: 2rem;
+  
+   margin-left: 2rem;
+}
